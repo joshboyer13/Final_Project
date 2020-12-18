@@ -11,7 +11,7 @@ const cors = require('cors');
 
 
 
-const itemModel = require("./Final-personal-budget/models/budget_Schema")
+const itemModel = require("./Final-personal-budget/models/item_Schema")
 let url = 'mongodb+srv://josh:123@cluster0.ikk3a.mongodb.net/Users?retryWrites=true&w=majority';
 const uri = "mongodb+srv://josh:123@cluster0.ikk3a.mongodb.net/Users?retryWrites=true&w=majority"
 const client = new MongoClient(uri);
@@ -47,13 +47,6 @@ const secretKey = "I hope the Grader of this project has a nice day";
 const jwtMW = exjwt({
     secret: secretKey,
     algorithms: ['HS256']
-
-});
-
-
-app.get('/hello',( req, res) => {
-
-  res.send('Hello World!')
 
 });
 
