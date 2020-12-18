@@ -1,0 +1,105 @@
+
+body {
+  margin: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: Tahoma, Arial;
+  margin-right: 10px;
+  padding: 10px 100px 10px ;
+}
+
+
+
+div.hero {
+  height: 350px;
+  background-color: #b4aef3;
+  background-image: url('/assets/budget.jpg');
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-top: 40px;
+
+}
+
+div.hero h1,
+div.hero h2 {
+  text-align: center;
+  margin: 0;
+}
+
+div.hero h1 {
+  color: rgb(196, 119, 119);
+  font-size: 4.2em;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+div.hero h2 {
+  color: #6416a3;
+}
+
+.container {
+  padding: 40px;
+  width: 100%;
+}
+
+.page-area {
+  max-width: 768px;
+  display: inline-block;
+}
+
+.bottom {
+  height: 50px;
+  background-color: #b4aef3;
+  padding: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.container div.text-box {
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  text-align: justify;
+  margin: 20px;
+}
+
+.div welcome {
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  text-align: justify;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container .div.text-box {
+      margin: 10px;
+  }
+}
+
+div.text-box h1{
+  text-align: center;
+
+  text-decoration: underline;
+}
+
+div.welcome h1{
+  text-align: center;
+
+  text-decoration: underline;
+}
+
+div.welcome p{
+  text-align: center;
+
+}

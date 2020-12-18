@@ -1,0 +1,29 @@
+div.menu {
+  width: 100%;
+  background-color: #8d83f7;
+  height: 44px;
+  padding: 0 40px;
+}
+
+div.menu ul,
+div.menu ul li {
+  margin: 0;
+  padding: 0 ;
+  display: inline-block;
+}
+
+div.menu ul li a {
+
+  padding: 0 40px;
+  line-height: 45px;
+  font-size: 1.7em;
+  color: rgb(0, 0, 0);
+
+  text-decoration: underline;
+
+}
+
+div.menu ul li a:hover  {
+  background-color: rgb(142, 238, 214);
+  color: #4d917d;
+}
